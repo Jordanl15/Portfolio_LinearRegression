@@ -1,10 +1,9 @@
-# Linear Regression Analysis Tool
+# SIMPLE Linear Regression Analysis Tool
 
-*******************
 # STILL IN PROGRESS
-*******************
 
 This Python script performs linear regression analysis on a dataset provided in a CSV file and visualizes the data along with the line of best fit.
+All formulas that were chosen were based on my current math course.
 
 ## Features:
 - **CSV Data Input**: Accepts CSV files containing x and y coordinate data.
