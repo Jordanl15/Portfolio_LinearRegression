@@ -1,4 +1,4 @@
-# SIMPLE Linear Regression Analysis Tool
+# Simple Linear Regression Analysis Tool
 
 # STILL IN PROGRESS
 
