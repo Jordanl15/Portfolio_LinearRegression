@@ -26,16 +26,14 @@ def perform_linear_regression(data1):
     return a, b, se, r, r2
 
 
-def plot_data_and_regression(data1, a, b):
-    ask_plot = input("Would you like to plot the data?: y/n ")
+def plot_data_and_regression(data1, a, b, ask_plot, ask_line, x_value):
 
-    if ask_plot.upper() == "Y":
-        ask_line = input("Would you like show line of best fit?: y/n ")
-        if ask_line.upper() == "Y":
-            ask_value = int(input("Enter x value for line of best fit: "))
-            y1 = a + b * ask_value
+    if ask_plot == 1:
+
+        if ask_line == 1:
+            y1 = a + b * x_value
             x_1, y_1 = 0, a  # Coordinates of the first point
-            x_2, y_2 = ask_value, y1  # Coordinates of the second point
+            x_2, y_2 = x_value, y1  # Coordinates of the second point
 
             fig, ax = plt.subplots()
 
