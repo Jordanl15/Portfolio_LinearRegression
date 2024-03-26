@@ -6,7 +6,7 @@ from tkinter import *
 filename = ""
 headerCheck_value = 0
 data1 = DataSet("N")
-# https://www.youtube.com/watch?v=TuLxsvK4svQ
+
 
 
 def submit():
