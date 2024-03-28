@@ -26,4 +26,7 @@ All formulas that were chosen were based on my current math course.
 1. Clone the repository or download the script.
 2. Install the required dependencies (`matplotlib` and `numpy`).
 3. Run the script and follow the prompts.
+4. To use test data, type - "csvFiles/testData1.csv" into the file
+entry when the program is running.
+5. To use your own data, use the full path of the file on your computer.
 
